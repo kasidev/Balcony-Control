@@ -46,20 +46,16 @@
 
 ## Parts List
 
-- [ ] **Solar Panels:** 2× SunPower Maxeon 6V/6W
+✔ [ ] **Solar Panels:** 2× SunPower Maxeon 6V/6W @done(25-03-14 18:32)
 - [ ] **Batteries:** 2× IFR26700-45HE (LiFePO4, 3.2V, 4500mAh)
-- [ ] **Charge Controller:** CN3722 MPPT
-- [ ] **BMS:** 2S 6.4V LiFePO4 BMS (with balancing, overcharge & discharge protection)
-- [ ] **Connectors:** XT60 or Anderson Powerpole
-- [ ] **Buck Converter:** LM2596 adjustable (LED strip voltage regulation)
-- [ ] **3.3V Regulator:** AMS1117-3.3V (Arduino & E-Ink display)
+✔ [ ] **Charge Controller:** CN3722 MPPT @done(25-03-14 18:32)
+✔ [ ] **BMS:** 2S 6.4V LiFePO4 BMS (with balancing, overcharge & discharge protection) @done(25-03-14 18:32)
+✔ [ ] **Connectors:** XT60 or Anderson Powerpole @done(25-03-14 18:32)
+✔ [ ] **Buck Converter:** LM2596 adjustable (LED strip voltage regulation) @done(25-03-14 18:32)
+✔ [ ] **3.3V Regulator:** AMS1117-3.3V (Arduino & E-Ink display) @done(25-03-14 18:32)
 - [ ] **MOSFET:** IRLZ34N (PWM dimming for LED)
-- [ ] **Arduino:** (Already owned)
-- [ ] **E-Ink Display:** (Selected model for weather display)
+✔ [ ] **Arduino:** (Already owned) @done(25-03-14 18:32)
+✔ [ ] **E-Ink Display:** (Selected model for weather display) @done(25-03-14 18:32)
 - [ ] **Wires, Solder, Insulation Materials**
-- [ ] **LiFePO4 Smart Charger (3.65V, 2A)**
+✔ [ ] **LiFePO4 Smart Charger (3.65V, 2A)** @done(25-03-14 18:32)
 
-## Items in AliExpress Shopping Cart
-- [ ] **XT60 Connectors**
-- [ ] **Solar Panel 6V/6W**
-- [ ] **LM2596 Adjustable Buck Converter**
