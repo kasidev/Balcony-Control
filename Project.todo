@@ -1,0 +1,65 @@
+# Solar-Powered LED & Arduino System
+
+## TODO List
+
+- [ ] **Design & Planning**
+  - [ ] Define system voltage levels and power requirements
+  - [ ] Choose appropriate solar panel configuration (2 in series for 12V input)
+  - [ ] Decide on battery swapping mechanism and connectors
+  - [ ] Determine space allocation for outdoor battery setup
+
+- [ ] **Battery System Setup**
+  - [ ] Order two LiFePO4 batteries (IFR26700-45HE, 3.2V, 4500mAh)
+  - [ ] Choose and order battery holders or design custom enclosure
+  - [ ] Implement battery swapping system with XT60/Anderson connectors
+  - [ ] Setup indoor battery charging with LiFePO4 smart charger (3.65V, 2A)
+  - [ ] Order and integrate 2S 6.4V LiFePO4 BMS for battery protection
+
+- [ ] **Solar Charging System**
+  - [ ] Order two SunPower Maxeon 6V/6W panels
+  - [ ] Install panels in a secure outdoor location
+  - [ ] Wire panels in series to achieve 12V output
+  - [ ] Install MPPT charge controller (CN3722) for battery charging
+
+- [ ] **Power Regulation**
+  - [ ] Order LM2596 adjustable buck converter for LED strip (2.6V-3.5V output)
+  - [ ] Order AMS1117-3.3V regulator for Arduino & E-Ink display
+  - [ ] Implement MOSFET PWM dimming circuit for LED brightness control
+
+- [ ] **System Assembly & Wiring**
+  - [ ] Wire up the charge controller to the battery pack
+  - [ ] Connect battery pack output to buck converters
+  - [ ] Test power delivery to Arduino, display, and LED strip
+  - [ ] Ensure proper grounding and wire insulation
+
+- [ ] **Software & Arduino Configuration**
+  - [ ] Write Arduino code for weather data retrieval
+  - [ ] Implement PWM control for LED dimming
+  - [ ] Display local and global weather info on E-Ink screen
+  - [ ] Test power consumption under different conditions
+
+- [ ] **Final Testing & Optimization**
+  - [ ] Measure real-world solar charging efficiency
+  - [ ] Test battery swap process for smooth operation
+  - [ ] Optimize power usage for maximum runtime
+  - [ ] Evaluate system performance over several days
+
+## Parts List
+
+- [ ] **Solar Panels:** 2× SunPower Maxeon 6V/6W
+- [ ] **Batteries:** 2× IFR26700-45HE (LiFePO4, 3.2V, 4500mAh)
+- [ ] **Charge Controller:** CN3722 MPPT
+- [ ] **BMS:** 2S 6.4V LiFePO4 BMS (with balancing, overcharge & discharge protection)
+- [ ] **Connectors:** XT60 or Anderson Powerpole
+- [ ] **Buck Converter:** LM2596 adjustable (LED strip voltage regulation)
+- [ ] **3.3V Regulator:** AMS1117-3.3V (Arduino & E-Ink display)
+- [ ] **MOSFET:** IRLZ34N (PWM dimming for LED)
+- [ ] **Arduino:** (Already owned)
+- [ ] **E-Ink Display:** (Selected model for weather display)
+- [ ] **Wires, Solder, Insulation Materials**
+- [ ] **LiFePO4 Smart Charger (3.65V, 2A)**
+
+## Items in AliExpress Shopping Cart
+- [ ] **XT60 Connectors**
+- [ ] **Solar Panel 6V/6W**
+- [ ] **LM2596 Adjustable Buck Converter**
